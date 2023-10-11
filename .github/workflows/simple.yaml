@@ -13,12 +13,7 @@ jobs:
       - name: multi string
         run: |
           node -v
-          npm -v 
-      - name: python command
-        run: |
-          import platform
-          print(paltform.processor())
-          shell: python
+          npm -v      
   run-windows-commands:
       runs-on: windows-latest
       steps:
