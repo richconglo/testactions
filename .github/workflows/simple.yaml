@@ -19,7 +19,7 @@ jobs:
           import platform
           print(paltform.processor())
           shell: python
-    run-windows-commands:
+  run-windows-commands:
       runs-on: windows-latest
       steps:
         - name: Directory
